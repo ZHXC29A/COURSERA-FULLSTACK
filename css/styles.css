@@ -13,7 +13,7 @@
 }
 
 .footer{
-    background-color: #dbdbdb;
+    background-color: #c6d0e0;
     margin: 0px auto;
     padding: 20px 0px;
    
@@ -24,9 +24,10 @@
     padding: 70px 30px;
     margin: 0px auto;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.6) 100%), url(/assets/confusion-header.jpg);
-    background-size: auto 100%;
+    background-size: auto auto;
+    background-position: 0% 50%;
     color: floralwhite;
-
+    
 }
 
 
@@ -40,14 +41,15 @@
 }
 
 .navbar-brand{
-    padding-right: 30px;
+    padding: 0px;
 }
 
 body {
     padding: 50px 0px 0px 0px;
+    background-color: #FBFAF5;
     z-index: 0;
 }
 
 .navbar-dark {
-    background-color: #3e3057;
+    background-color: #151d2b;
 }
